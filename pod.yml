@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: sayeed
+  labels:
+    name: rayan
+spec:
+  containers:
+    - name: nginx
+      image: nginx
