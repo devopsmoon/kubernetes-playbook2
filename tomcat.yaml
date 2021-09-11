@@ -9,7 +9,7 @@ metadata:
 spec:
   containers:
     - name: appcontainer
-      image: imranvisualpath/freshtomapp:v7
+      image: imranvisualpath/freshtomapp:V7
       ports:
         - name: vproapp-port
           containerPort: 8080
